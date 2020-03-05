@@ -1,0 +1,33 @@
+body {
+  color: #20B2AA; /*Light sea green*/
+  background-color: #AfEEEE; /*Pale turquoise*/
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h1,h2 {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+p1,p2 {
+  text-align: right;
+}
+
+container {
+  display: grid;
+  grid-template-columns: repeat (4,1fr);
+  grid-template-rows: repeat (3, minmax(100px), max-content));
+  grid-gap: 10px;
+  grid-area: row-start / column-start / row-end / column-end;
+}
+
+h2, p2 {
+  grid-area: 2 / 4 / 5;
+}
