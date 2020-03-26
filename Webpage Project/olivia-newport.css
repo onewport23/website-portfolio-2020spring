@@ -1,33 +1,60 @@
+
+
 body {
   color: #20B2AA; /*Light sea green*/
-  background-color: #AfEEEE; /*Pale turquoise*/
-  font-size: 18px;
+  background-image: image("background-ocean.jpg");
+  font-size: 12px;
 }
 
 h1 {
-  font-size: 2em;
+  display: flex;
+  font-size: 5em;
+  font-family: "Corline Signature", "Brush Script MT", cursive;
+  justify-content:center;
 }
 
 h2 {
+  font-size: 3.6em;
+}
+
+h2 {
+  font-family: "Corline Signature", "Brush Script MT", cursive;
+}
+
+
+.menu-container {
+  background color: #20B2AA
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tabs {
+  border: 1px solid #fff;
+  background color: #202BAA;
+  height: 200px;
+  flex: 1;
+}
+
+.bio,
+.writing,
+.design {
+  font-family: "Corline Signature", "Brush Script MT", cursive;
+  font-size: 2.4em;
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 160px;
+}
+
+.aboutme {
+  float: right;
   font-size: 1.6em;
-}
-
-h1,h2 {
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
-p1,p2 {
-  text-align: right;
-}
-
-container {
-  display: grid;
-  grid-template-columns: repeat (4,1fr);
-  grid-template-rows: repeat (3, minmax(100px), max-content));
-  grid-gap: 10px;
-  grid-area: row-start / column-start / row-end / column-end;
-}
-
-h2, p2 {
-  grid-area: 2 / 4 / 5;
 }
