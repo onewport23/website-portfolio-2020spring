@@ -12,32 +12,32 @@ html {
 
 h1 {
   display: flex;
-  font-size: 4em;
+  font-size: 5em;
   font-family: "Corline Signature", "Brush Script MT", cursive;
   color: #FFFFFF;
   justify-content: center;
   align-items: center;
   background-image: url(background-ocean.jpg);
-  height: 5em;
+  height: 7em;
 }
 
 
 .menu {
-  background-color: #696969;
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
 
 .tab {
-  color:#FFFFFF;
-  font-family: "Corline Signature", "Brush Script MT", cursive;
-  font-size: 3.25em;
-  width: 31%;
-  margin: 40px 1.15%;
-  justify-content: space-between;
-  align-items: center;
+  color:#00BFFF;
+  font-family: "Avenir Next Condensed", "Arial", sans-serif;
+  font-size: 2.15em;
+  width: 11%;
+  margin: 20px 1.15%;
+  justify-content: left;
+  align-items: left;
 
 }
 
@@ -46,8 +46,8 @@ h1 {
   align-items: right;
   margin-left: 3.5em;
   margin-right: 3.5em;
-  margin-top: 3em;
-  margin-bottom: 5em;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
   font-family: "Avenir Next Condensed", "Arial", sans-serif;
   color: #00BFFF
 }
@@ -57,12 +57,12 @@ h1 {
   float: left;
   margin-top: 3em;
   margin-left: 3.5em;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   padding: 2em;
 }
 
-h2, p {
-  margin-top: 2em;
+h3, p {
+  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
   align-items: right;
@@ -73,7 +73,7 @@ h2, p {
   color: #00BFFF
 }
 
-h2 {
+h3 {
   font-size: 2.75em;
 }
 
