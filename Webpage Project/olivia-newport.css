@@ -17,8 +17,12 @@ h1 {
   color: #FFFFFF;
   justify-content: center;
   align-items: center;
-  background-image: url(background-ocean.jpg);
+  background-image: url(images/background-ocean.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 7em;
+  border-bottom: 0.25em solid #000000;
+  border-top: 0.25em solid #000000;
 }
 
 
@@ -31,53 +35,136 @@ h1 {
 }
 
 .tab {
-  color:#00BFFF;
+  color:#000000;
   font-family: "Avenir Next Condensed", "Arial", sans-serif;
   font-size: 2.15em;
   width: 11%;
   margin: 20px 1.15%;
   justify-content: left;
   align-items: left;
-
 }
 
 .aboutme,
 .portfolio {
   align-items: right;
-  margin-left: 3.5em;
+  margin-left: 0.5em;
   margin-right: 3.5em;
   margin-top: 1.5em;
   margin-bottom: 1em;
   font-family: "Avenir Next Condensed", "Arial", sans-serif;
-  color: #00BFFF
+  color: #000000;
+
 }
 
 .image,
 .portimages {
   float: left;
-  margin-top: 3em;
-  margin-left: 3.5em;
-  margin-bottom: 2em;
-  padding: 2em;
 }
 
-h3, p {
+.container {
+  display: grid;
+  grid-template-columns: repeat (4; 1fr);
+  grid-template-rows: repeat (2, minmax(100px, max-content))
+  grid-gap: 20px;
+}
+
+h4, p {
   margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
   align-items: right;
   margin-left: 3.5em;
   margin-right: 3.5em;
-  margin-top: 3em;
   font-family: "Avenir Next Condensed", "Arial", sans-serif;
-  color: #00BFFF
+  color: #000000;
 }
 
-h3 {
+h4 {
   font-size: 2.75em;
+  font-weight: normal;
 }
 
 p {
   font-size: 2em;
   padding-bottom: 2em;
 }
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color:#000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.image img{
+  grid-column: 1 / 2;
+  grid-row: auto;
+  filter: grayscale(100%);
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.aboutme {
+  grid-column: 4 / 4;
+  grid-row: auto;
+}
+
+.article1 {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+.article2 {
+  grid-column: 3 / 4;
+  grid-row: 1;
+}
+
+.article3 {
+  grid-column: 1 / 2;
+  grid-row: 2;
+}
+
+.article4 {
+  grid-column: 3 / 4;
+  grid-row: 2;
+}
+
+.carousel_button {
+	display:none;
+	cursor:pointer;
+	position: absolute;
+	top: 100px;
+	opacity: 0.8;
+	padding: 10px;
+	background: #333;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 20px;
+
+	}
+#previous_image {
+	left:0px;
+	}
+
+#next_image {
+	right:0px;
+	}
+
+#carousel_image img {
+	display:none;
+	}
+
+#carousel_image {
+	position:relative;
+	width:300px;
+	height:200px;
+	}
