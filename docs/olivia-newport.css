@@ -138,3 +138,28 @@ a:hover {
   grid-column: 3 / 4;
   grid-row: 2;
 }
+
+.carousel {
+  margin: 1em auto;
+  max-width: 80%;
+}
+
+.carousel img {
+  max-height: 90vh;
+  max-width: 100%;
+  width: auto !important;
+  margin: 0 auto;
+}
+
+/* carousel colors */
+.carousel-control-next:hover, .carousel-control-prev:hover, .carousel-control-next:focus, .carousel-control-prev:focus {
+  background-color: #95c2e0;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='%2300507f' width='8' height='8' viewBox='0 0 8 8'><path d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/></svg>")
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='%2300507f' width='8' height='8' viewBox='0 0 8 8'><path d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/></svg>")
+}
