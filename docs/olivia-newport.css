@@ -1,6 +1,6 @@
 
 html {
-  font-size: 36px;
+  font-size: 9px;
 }
 
 * {
@@ -90,6 +90,7 @@ p {
 }
 
 a:link {
+  color: #000000;
   text-decoration: none;
 }
 
@@ -137,34 +138,3 @@ a:hover {
   grid-column: 3 / 4;
   grid-row: 2;
 }
-
-.carousel_button {
-	display:none;
-	cursor:pointer;
-	position: absolute;
-	top: 100px;
-	opacity: 0.8;
-	padding: 10px;
-	background: #333;
-	color: #FFF;
-	font-weight: bold;
-	font-size: 20px;
-
-	}
-#previous_image {
-	left:0px;
-	}
-
-#next_image {
-	right:0px;
-	}
-
-#carousel_image img {
-	display:none;
-	}
-
-#carousel_image {
-	position:relative;
-	width:300px;
-	height:200px;
-	}
