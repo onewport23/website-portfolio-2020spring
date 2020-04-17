@@ -1,0 +1,24 @@
+Assets:
+
+Self Sourced:
+- background-ocean.jpg
+- cccflyer.pdf
+- cccflyer.png
+- clearshelter.pdf
+- clearshelter.png
+- muttsmovies.pdf
+- muttsmovies.png
+- pantherracing.pdf
+- pantherracing.png
+- profile.jpg
+- travelguide.pdf
+- travelguidecover.png
+- yappy.pdf
+- yappy.png
+
+
+Found:
+- font: Corline Signature Regular; by Muhamad Junaid, "free for personal use" license (https://juncreative.net/downloads/corline-signature/)
+- font: Avenir Next Condensed; by Adrian Frutiger, Akira Kobayashi, available with Apple Fonts; copyright: www.linotype.com
+- image carousel JavaScript; Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors
+ Released under the MIT license (http://jquery.org/license)
