@@ -2,18 +2,13 @@ Assets:
 
 Self Sourced:
 - background-ocean.jpg
-- cccflyer.pdf
 - cccflyer.png
-- clearshelter.pdf
 - clearshelter.png
-- muttsmovies.pdf
 - muttsmovies.png
-- pantherracing.pdf
 - pantherracing.png
 - profile.jpg
 - travelguide.pdf
 - travelguidecover.png
-- yappy.pdf
 - yappy.png
 
 
