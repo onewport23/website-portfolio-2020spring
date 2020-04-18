@@ -20,5 +20,4 @@ Self Sourced:
 Found:
 - font: Corline Signature Regular; by Muhamad Junaid, "free for personal use" license (https://juncreative.net/downloads/corline-signature/)
 - font: Avenir Next Condensed; by Adrian Frutiger, Akira Kobayashi, available with Apple Fonts; copyright: www.linotype.com
-- image carousel JavaScript; Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors
- Released under the MIT license (http://jquery.org/license)
+- Bootstrap Image Carousel: https://getbootstrap.com/docs/4.4/components/carousel/
